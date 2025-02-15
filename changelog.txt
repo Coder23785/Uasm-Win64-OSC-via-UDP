@@ -1,0 +1,26 @@
+[02/06/2025] 
+  + Added changelog file '.\changelog.txt'
+  + Directory change!
+    * Folder moved from "Winsock2_UDP" to "Winsock2_UDP_OSC_0".
+[02/07/2025]
+  + Directory change!
+    * Folder moved from "Winsock2_UDP_OSC_0" to "Winsock2_UDP_OSC_1".
+  + Updated '.\winsock2.asm'
+    * Fixed floating point number values in premade OSC message to be 
+      in big endian byte order. 
+    * Fixed the rest of the OSC message header.
+[02/07/2025]
+  + Updated '.\winsock2.asm'
+    * Cleaned up comments and updated the intro message 
+  + Updated '.\winsock2.inc'
+    * Moved files currently included to the top of file.
+    * Added messages regarding the Windows SDK 19041 that has been translated for use in ASM programs.
+    * Added notes about included files that have been commented out.
+    * Added contact info comment to top of file
+  + Updated '.\mwrite.asm'
+    * Added contact info comment to top of file
+  + Updated '.\macros.asm'
+    * Added contact info comment to top of file
+  + Updated '.\memory.asm'
+    * Added contact info comment to top of file
+
